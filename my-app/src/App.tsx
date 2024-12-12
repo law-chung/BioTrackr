@@ -7,7 +7,6 @@ function App() {
 
 const filteredStations = teslaData.filter(tsla => tsla.address.country === "Italy") 
 
-
   return (
     <MapContainer center={[42.5, 13.2]} zoom={7} scrollWheelZoom={true}>
       <TileLayer
